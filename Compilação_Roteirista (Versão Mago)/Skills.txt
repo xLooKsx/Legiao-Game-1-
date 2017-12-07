@@ -1,0 +1,51 @@
+Quantidade de MP:
+Homens: 100
+Mulheres: 110
++ 10 por lvl
+
+
+Quantidade de HP:
+Homens: 110
+Mulheres: 100
++ 10 por lvl
+
+
+
+Lvl máximo: 8?
+
+
+
+##Sexo
+
+	#Feminino
+
+		Inteligência + 1
+		Todas as skills de magia lvl 2
+
+	#Masculino
+
+		Força + 1
+		Todas as skills de combate lvl 2
+
+
+##Especialização
+
+	#Magia
+		#Inteligência
+
+			Ataque: Destruição - Skill point custo -5%
+			Durabilidade: Restauração - Skill point custo -5%
+			Reforço: Alteração - Skill point custo -5%
+			Ocupação: Alquimia - Skill point efetividade de poção + 10%
+
+		
+
+
+	#Combate
+		#Força
+
+			Ataque: Lâmina - Skill point dano + 2
+			Durabilidade: Armadura - Skill point armor rating + 5
+			Reforço: Bloqueio - Skill point bloqueio + 5%
+			Ocupação: Armeiro - Skill point efetividade + 1
+		

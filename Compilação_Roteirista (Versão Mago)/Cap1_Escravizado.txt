@@ -1,0 +1,100 @@
+Escravizado
+
+Legenda
+1. Telas
+- Fala
+<> Ação a ser tomada
+::Tutorial
+@Ação que acontece
+$Objetivo$
+
+
+1.O capítulo começa com o jogador dentro de uma jaula com outros soldados que viraram escravos em um forte sinamês, sem o seu equipamento, somente com roupas de escravos.
+
+	-Jogador:Uh, oh... Onde estou?
+
+	-Jogador:Ah, não! Imperador Tullius!
+
+	-Jogador: Agora é tarde...
+
+	-Jogador: <Se homem >Me sinto estranho, um pouco fraco. <Se mulher >Me sinto estranha, um pouco fraca.
+
+	@Um guarda se aproxima
+
+	-Guarda: Hora de trabalhar. Não querem se atrasar para o primeiro dia, não é?
+
+	@Guarda abre a porta para os escravos, que saem em direção ao campo. Ele pára o jogador e diz:
+
+	-Guarda: Tome essa pá, você irá cavar as valas dos que morrerem hoje. Ha-ha!
+
+	@Pá adicionada no inventário, o jogador deve atacar o guarda.
+
+	$Ataque o guarda$
+
+	@Após a morte do guarda, o seguinte objetivo aparece: 
+
+	$Verifique o corpo do guarda$
+
+	@o jogador encontra em seu corpo uma nota que diz:
+
+		Novos prisioneiros chegam hoje. Retirar todos os seus pertencences e guardá-los no depósito.
+
+	@Também encontra uma espada de ferro
+
+
+		-Jogador:Devo recuperar meus pertences e libertar essas pessoas.
+
+	$Recupere seus pertences no depósito$
+
+
+	@Escravos passam a correr pelo cenário e o jogador deve chegar no depósito
+
+
+2.O jogador chega no depósito. Dentro há 1 guarda e um mago e no fim um baú com sua <se soldado> armadura e 2 poções de HP/ <se mago> túnica, 1 poção de HP, uma poção de MP e um alambique. O guarda carrega uma espada de aço que pode ser coletada, e o mago carrega um pergaminho de chamas e cura. (Obs: Itens de uma classe são invisíveis para outra classe).
+
+$Escape$
+
+
+3. O jogador sai pela porta traseira do depósito e se encontra no portão do forte. Após derrotar os guardas, ele abre os portões, e os escravos se aproximam, agradecendo. Um deles, o Soldado Marcelius, pergunta:
+
+	-Sol. Marcelius:
+		<Jogador>! O imperador e nossos oficiais estão mortos! Somos fiéis a ti! O que devemos fazer?
+
+	-Jogador:
+		Com certeza não fomos os únicos que viraram escravos. Outros grupos de civis e combatentes devem ter sido levados para diferentes fortes. Preciso que me ajudem a procurá-los.
+
+	@ A tela congela enquanto os escravos correm para fora do forte e saem da tela. Então o jogador sai do forte para encontrar um pântano, que deve cruzar pois sabe que reforços dos sinameses chegarão.
+
+	Jogador:
+		-Este pântano parece ser a única maneira de fugir sem chamar atenção dos reforços que com certeza chegarão.
+
+	Jogador:
+		-Preciso reunir o povo. Não posso deixar o Império de Sartre morrer!
+
+	@ O jogador cruza os perigos do pântano até chegar em uma caverna
+
+
+<Fim do capítulo>
+
+Transição para Capitulo 2: Escuridão>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		

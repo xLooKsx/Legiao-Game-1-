@@ -1,0 +1,81 @@
+Jornada
+
+Legenda
+1. Telas
+- Fala
+<> Ação a ser tomada
+::Tutorial
+@Ação que acontece
+$Objetivo$
+
+
+O capítulo começa com uma tela preta com o texto: 
+
+"No dia seguinte"
+
+
+1.O jogador aparece do lado de fora do vilarejo, com os portões estando a sua esquerda no cenário e o shaman a sua frente. O shaman diz:
+	-Shaman: É muito bom que tenha concordado em nos ajudar, <nome do jogador>. A caverna que está procurando fica para o Oeste, não muito longe daqui. <Se mago> Leve estes pergaminhos, eles o ajudarão a se proteger {@Pergaminhos de Nevasaca, Fechar Feridas e Pele de rocha}. Estarei pedindo aos antigos deuses que lhe ajudem. <Se guerreiro> Leve esta espada e este escudo, eles o ajudarão a se proteger {@Espada de Prata e Escudo de Prata}. Estarei pedindo aos antigos deuses que lhe ajudem.
+
+	@no canto direito superior esquerdo da tela aparece o seguinte texto:
+
+		:Você foi abençoado pelos antigos deuses: + 20 HP:
+		:Você recebeu o poder Regeneração Divina:
+		:Use F para ativar Regeneração Divina:
+
+		Obs: Regeneração Divina é um poder que permite que o jogador regenere toda sua vida instantâneamente uma vez por capítulo, sendo mago ou guerreiro.
+
+	$Encontre a caverna$
+
+
+	@ O jogador começa a andar pelo cenário, que é uma floresta. Até que chega na caverna. Um pouco antes de chegar na caverna o jogo salva. Entrando na caverna, o seguinte objetivo aparece:
+
+	$Encontre as Relíquias do Sol$	
+
+	@Andando o jogador encontra um urso gigante no que parece ser o fim da caverna. Ele luta com o urso, e quando o urso está quase morrendo, ele diz:
+
+			-Urso: Chega! Já é o bastante! Você provou ser digno!
+
+			-Jogador: Um urso falante? Só pode ser um sonho!
+
+			-Urso: Não é o urso que está falando. Sou Auriel, o Deus SOl. Me apoderei do corpo deste urso para lhe testar.
+
+			<Você quase me matou.>
+				-Urso: Faz parte do teste. Há muito tempo tenho lhe observado. Sei que procura as relíquias do Sol. Apesar de impressionado, eu precisava de um último teste para você. Eu não posso entregar as relíquias para qualquer um.
+				-Urso: Com esse último teste, sei que posso confiar em você. Use as relíquias para o bem da humanidade, e espalhe a palavra de Auriel pelo mundo. Honre Isran, meu antigo caçador.
+
+
+			<Que tipo de teste foi esse?>
+				-Urso:Seu último teste. Há muito tempo tenho lhe observado. Sei que procura as relíquias do Sol. Apesar de impressionado, eu precisava de um último teste para você. Eu não posso entregar as relíquias para qualquer um.
+				-Urso: Com esse último teste, sei que posso confiar em você. Use as relíquias para o bem da humanidade, e espalhe a palavra de Auriel pelo mundo. Honre Honre Isran, meu antigo caçador.
+
+
+
+			@Em ambas as escolhas, o urso corre para fora da caverna e, á frente do jogador, o que parecia ser o fim da caverna era um campo mágico criado por Auriel para manter os impuros longe, que some lentamente, revelando mais alguns metros da caverna. Então o jogador prossegue.
+
+			@Em frente, encontra um altar de mármore, e acima, um buraco no teto da caverna, por onde entra a luz do Sol. No altar, o esqueleto de um mago, com uma túnica branca.
+
+			@Loot Isran:
+
+			Pergaminho de Raio Solar
+			Túnica do Sol(+ 30 MP)
+			Pergaminho de Absorção Maior
+			Pergaminho de Cura Suprema
+
+
+	@Tela lentamente se torna branca
+
+	@Transição para o capítulo 5 - Caos
+
+
+
+
+
+
+
+
+
+
+
+
+

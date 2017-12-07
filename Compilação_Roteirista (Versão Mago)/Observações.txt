@@ -1,0 +1,16 @@
+1-Programador deve incluir no cenário, não só inimigos, mas ingredientes para alquimia e baús com itens, incluindo itens para armeiro.
+
+2-Todos os npcs amigáveis são imúnes a ataques.
+
+3-Em momentos em que a fala de um npc está dividida, é porque o texto é grande, então a última fala desaparece da tela e a nova fala é escrita.
+
+4-Tutoriais, marcados por ::, aparecem sempre no canto superior esquerdo.
+
+5-O programador deve fazer com que o jogador chegue no líder mago no nivel 5, desde que o jogador jogue corretamente. Isso significa que a quantidade de experiência de cada inimigo e a quantidade de inimigos são parte do trabalho do programador.
+
+6-Borboletas são objetos flutuantes que se movimentam pelo cenário. Para coletá-las, basta chegar perto e pressionar o botão de interação.
+
+7-Jogador só muda de aparência no começo do jogo quando tira sua roupa de civil e que coloca armadura/túnica; quando muda de roupa de escravo para armadura/túnica; e quando muda de armadura/túnica para armadura do sol/túnica do sol.
+
+8-QUalquer vestigio de história que envolva o jogador como guerreiro deve ser eliminado.
+

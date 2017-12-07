@@ -1,0 +1,43 @@
+Escuridão
+
+Legenda
+1. Telas
+- Fala
+<> Ação a ser tomada
+::Tutorial
+@Ação que acontece
+$Objetivo$
+
+1.O jogador começa dentro da caverna, e deve chegar ao outro lado. Por ser escura, a visibilidade dentro da caverna é menor.
+
+$Cruze a caverna$
+
+No meio do caminho, o jogador encontra um pequeno acampamento, com uma fogueira ainda acesa. Um homem aparece e diz:
+
+	-Homem: Olhe só o que temos aqui! Me dê tudo o que você tem!
+
+	-Jogador:
+		<Venha pegar!>
+
+		<Eu não tenho nada de valor>
+
+		@Em ambas as situações, o jogador é atacado pelo homem.
+
+
+	-Jogador: Ele devia carregar algo de valor.
+
+	$Verifique o corpo do ladrão$ (Obs: O jogador não pode continuar sem verificar o corpo e pegar o cálice)
+
+
+	
+	@No corpo do ladrão, o jogador encontra um cálice que parece ser extremamente valioso; uvas; uma poção de HP e <mago> um anel de regeneração de MP(regenera 3MP/s)/ <soldado> um anel de regeneração de HP(regenera 3HP/s).
+
+**Obs:O valor de regeneração pode variar dependendo do que o programador achar melhor.
+
+$Cruze a caverna$
+
+O jogador continua pela caverna até achar a saída do outro lado.
+
+<Fim do capítulo>
+
+<Transição para Capitulo 3: Ajuda>

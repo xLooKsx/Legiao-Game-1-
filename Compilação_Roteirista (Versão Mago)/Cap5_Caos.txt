@@ -1,0 +1,59 @@
+Caos
+
+Legenda
+1. Telas
+- Fala
+<> Ação a ser tomada
+::Tutorial
+@Ação que acontece
+
+	
+1. A tela começa branca e vai lentamente ficando nítida. Então o jogador acorda e diz:
+
+	-Jogador: O que aconteceu? Eu estava dentro de uma caverna...
+	-Jogador: Bom, é melhor eu me apressar, não tenho muito tempo.
+
+	$Dirija-se para a Capital$
+
+	Obs: O cenário é uma floresta, durante a noite. O lugar tem muitas criaturas noturnas perigosas.
+	Outra Obs: Se possível, faça com que o equipamento do Sol brilhe no escuro.
+
+	@O jogador prossegue pela floresta, que não é muito grande, até que chega nas ruínas da Capital Imperial, o céu lentamente de torna avermelhado. O seguinte objetivo aparece:
+	
+	$Dirija-se para o Palácio$
+
+	@Então o jogador diz:
+
+	-Jogador: Mesmo qe eu vença essa guerra, não sei se a Capital tem salvação. Eles destruíram tudo. Aqueles selvagens, covardes, traidores, assassinos...
+
+	
+
+	@O jogador prossegue um tempo sozinho (sem inimigos) pelas ruínas, observando a destruição. Até que começa a encontrar soldados sinameses sob o controle de magia negra. Ele deve lutar com os mesmos. Até que chega nas escadarias do palácio imperial. Escadarias muito longas, que ele deve subir para entrar no palácio.
+
+	@Entrando no palácio, quem está sentado no trono é o mago sinamês que assassinou o Imperador.
+
+	-Mago: Ah, mas o que temos aqui? Achei que tinha capturado você e seus amiguinhos sujos.
+
+	-Jogador: Você vai pagar pelo que fez! Sua alma será perturbada por Auriel!
+
+	-Mago: Os sinameses mereciam muito mais que viver da piedade do seu maldito império! O que eu fiz foi livrar o mundo desta ameaça, pelo menos é o que farei quando matar você!
+
+	-Jogador: Por Sartre!
+
+	@Neste momento, uma luz aparece no céu e aponta para o jogador, que tem sua vida totalmente recuperada e sua mana, assim como um aumento de + 20HP e <Se mago> + 50MP, assim como a habilidade natural de regenerar 3HP/s e 5MP/s
+
+	$Mate o mago misterioso$
+
+	@A batalha começa.
+
+	@Quando a vida do mago chega a zero, ele grita:
+
+	-Mago: Miserável!
+
+	@Então o corpo do mago some lentamente, e um portal negro se abre no lugar. O jogador deve entrar no portal.
+
+
+	<Screen fade-out>
+
+
+	<Transição para Batalha Final>

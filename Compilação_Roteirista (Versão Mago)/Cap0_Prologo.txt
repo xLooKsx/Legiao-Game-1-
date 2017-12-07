@@ -1,0 +1,182 @@
+Prólogo
+
+Legenda
+1. Telas
+- Fala
+<> Ação a ser tomada
+::Tutorial
+@Ação que acontece
+
+
+
+
+1. O jogo começa com uma tela preta em que vemos o texto:
+"Capital Sartre,230 a.C." - História de introdução
+
+<Screen Fade-out>
+
+2. Na segunda tela vemos Arcano no lado esquerdo da tela. O jogador deve se mover até Mestre Kayus do outro lado da tela e falar com ele.
+
+-Mestre Kayus: Olá! Veio se alistar para a legião? Pelo que vejo você está interessado em se especializar em magia. Meu nome é Kayus, sou mestre mago da divisão de magos da legião. 
+    
+
+	<O que é a legião?>
+
+		-Mestre Kayus: A legião é a força de combate do Império de Sartre. Nós admitimos principalmente homens interessados em se tornar soldados, mas o recrutamento de magos é importante para o suporte nas batalhas.
+
+	<Quais os deveres de um mago da legião?>
+
+		-Mestre Kayus: Os magos da legião aprendem as artes das escolas de destruição, restauração e alteração, sendo alteração um privilégio dos magos mais adeptos. Os magos também devem aprender alquimia.
+
+	<Quero me especializar em magia>
+
+		-Mestre Kayus: Ótimo! Prossiga para a arena e começaremos seu treinamento.
+
+
+3. O jogador começa no campo de treinamento da legião, na área dedicada a magos.
+
+
+        Mestre Kayus
+            -M. Kayus: Começaremos o seu treinamento com o básico. A sua frente você vê um baú, seu equipamento está dentro dele.
+            :Use os direcionais para mover o personagem:
+            :Use espaço para interagir:
+            :Use Z para bater:
+            #O jogador abre o baú. Dentro há uma túnica.
+
+            -M. Kayus: Agora vista a túnica e complete o percurso de treinamento, para sabermos se você tem o condicionamento             que precisamos.
+            :Abra seu inventário com I e equipe sua túnica:
+            :Use direcional para cima para pular:
+            @O jogador deve completar o percurso, que envolve movimentação e pulos.
+
+            -M. Kayus: Certo, agora pegue o resto do seu equipamento neste outro baú.
+            @O jogador abre o baú e encontra um pergaminho de chamas, um pergaminho de cura, um alambique, uma poção de MP,              cogumelos da noite e ectoplasma.
+
+            -M. Kayus: Como você pode ver, você tem dois pergaminhos. Pergaminhos contém os feitiços de uma das três escolas             de magia, destruição, restauração e alteração. Agora, concentre toda sua energia e atenção para ler o pergaminho              de chamas
+            :Abra seu inventário e leia o pergaminho de chamas:
+            @O jogador lê o pergaminho de chamas.
+
+            -M. Kayus: Agora que você sabe o feitiço de chamas, da escola de magia de destruição, pratique seu uso neste 	            boneco.
+            :Use A para utilizar o feitiço de destruição selecionado:
+            @O jogador deve atacar o boneco 5 vezes.
+
+            -M. Kayus: Como pode ver, seu poder se torna mais fraco ao usar magia. Agora tome aquela poção que você recebeu 	        anteriormente.
+            :Abra o inventário e selecione a poção de MP:
+            :Use C para beber a poção selecionada:
+
+            -M. Kayus: Certo, agora leia o pergaminho de cura para aprender sua primeira magia da escola de restauração.
+            :Leia o pergaminho de cura:
+
+            -M. Kayus: Agora que você já sabe o que fazer caso seja atacado, chamarei um de meus aprendizes para lhe testar.
+            @Entra o aprendiz que ataca o jogador com feitiços de chamas duas vezes (dano 3 cada). Após isso o feitiço se 	    	    torna disponivel
+            :Use S para utilizar o feitiço de restauração selecionado:
+
+            -M. Kayus: Muito bom, novato. Além das escolas de destruição e restauração, nós magos utilizamos a escola de alteração para nos proteger de ataques brutos e magia de outros magos, mas você precisará de maiores habilidades para utilizar essa escola. Lembre-se, quando não tiver energia o suficiete para lançar um feitiço, você pode sempre usar seus punhos.
+
+            -M. Kayus:Aqui na legião, nós magos aprendemos a ser alquimistas. Utilize seu alambique para produzir uma poção               de magia. Você precisará de cogumelos da noite e ectoplasma. Quanto maior sua habilidade de alquimia, melhores                 suas poções.
+
+            :Utilize o alambique para fazer uma poção de magia:
+
+            -M. kyus: Ótimo. Além de poções de magia, você também pode criar poções de vida, com asas de borboleta e uvas.
+            
+            -M. Kayus: Acho que você servirá para nós, aprendiz. Você agora faz parte da legião.
+
+            <Screen fade-out>
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+	@Na tela preta vemos o seguinte texto:
+
+		Anos se passaram, você lutou bravamente pela legião, e ganhou muitas batalhas, conquistando territórios para o imperador Tullius, que governa sozinho, sem um herdeiro e já bem velho. Pela sua bravura em combate, conquistou a posição de <se combate bruto> capitão <se magia> mestre, tornando-se grande amigo do imperador.
+
+<Screen fade-in>
+
+4.O jogador se vê dentro do palácio do imperador, conversando com o mesmo:
+
+	-Imperador Tullius:
+		Que bom que veio atender meu chamado, <jogador>. Sempre pontual. 
+
+	-Jogador
+		<Ser pontual é meu trabalho, vossa majestade.>
+			Imp. Tullius:
+				É bom que o esteja cumprindo de forma eficaz.
+
+		<Eu não tinha mais nada para fazer.>
+			Imp. Tullius:
+				Ha-Ha-Ha! Você nunca perde o senso de humor, não é, <jogador>?
+
+
+	-Imperador Tullius:
+		Bom, vamos acabar logo com isso.
+
+	-Imperador Tullius:
+		Lhe chamei aqui hoje pois como já sabes, estou muito velho para governar, e minha esposa morreu enquanto                 grávida de nosso herdeiro. <Suspiro>
+
+	-Imperador Tullius:
+		Sem alguém da família real para herdar o trono, o máximo que posso fazer é entregá-lo a alguém confiável,                 alguém próximo.
+
+	-Imperador Tullius:
+		Isso é muito difícil para mim. Minha família esteve no governo por 289 anos!
+
+	-Imperador Tullius:
+		É por isso que lhe chamei aqui hoje. Tenho soldados e magos que lutam pelo império há décadas,e agradeço                 muito pelo que eles têm feito. Mas você, <jogador>. Ah, você.
+
+	-Imperador Tullius:
+		A única maneira de lhe agradecer por ter se tornado um de meus melhores oficiais em tempo recorde, é lhe                 entregando o trono, e sei que é a coisa certa, pois sei que poderá fazer de nossos territórios terras cada                 vez melhores para se viver.
+
+	-Jogador:
+		Vossa majestade...Eu...
+
+
+	@Enquanto o jogador procura palavras, um cavaleiro da legião entra correndo no palácio, gritando:
+
+
+	-Cavaleiro:
+		Vossa majestade! Os sinameses! Estamos sendo atacados pelos sinameses!
+
+
+	-Imp. Tullius:
+		Mas isso não é possível! Nós os derrotamos há décadas! Meu pai teve a compaixão de poupar os civis e permitir                 que continuassem vivendo em suas terras, desde que não causassem problemas.
+
+
+	-Cavaleiro:
+		Bom, parece que eles quebraram suas promessas! Estão usando um tipo de magia que nunca vi antes! Estão                 destruindo toda a cidade! Temos que...
+
+
+	@Enquanto o cavaleiro falava, um feiticeiro sinamês entra no palácio e lança magia negra no cavaleiro, que morre.         Então o jogador entra em modo de batalha, mas derrotar o feiticeiro é impossível, pois não é afetado por seus         ataques.
+
+	@Quando a vida do jogador se torna bem baixa (o jogador não deve morrer), o feiticeiro lança uma última magia que         aprisiona o jogador e o eleva alguns metros. Então o feiticeiro anda na direção do Imperador.
+
+
+	-Imp. Tullius:
+		Seus monstros! Poupamos suas vidas e vocês nos traem? Tenho o exército mais poderoso do mundo! Como                 conseguiram passar por nossas forças?
+
+	-Feiticeiro sinamês:
+		...
+
+	@Imperador Tullius casta uma bola de fogo que não surte o mínimo efeito no feiticeiro. Este então lança uma bola de         energia negra no imperador, que não resiste.
+
+	-Jogador:
+		Vossa majestade! Não!
+
+	@Então o feiticeiro solta o jogador, que cai no chão, se ajoelha e depois cai para frente
+
+<Screen fade-out>
+
+
+-Transição para área 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		

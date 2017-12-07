@@ -1,0 +1,57 @@
+Batalha Final
+
+Legenda
+1. Telas
+- Fala
+<> Ação a ser tomada
+::Tutorial
+@Ação que acontece
+$Objetivos$
+
+1.O jogador aparece no plano de Cytran, um lugar sombrio e escuro, cheio de criaturas estranhas.
+
+$Encontre e derrote Cytran$
+
+	@Os inimigos encontrados parecem fantasmas e esqueletos sob o poder de magia negra, ele deve lutar com os mesmos, até que chega num lugar em que começa a ouvir vozes:
+
+	-Cytran:Então o primeiro mortal entra no plano do todo poderoso Cytran! Não esperava tanto de você, um <se guerreiro> legionário qualquer/<se mago> mago qualquer. Mas devo dizer que tudo que fez foi em vão.
+
+	-Cytran: Deuses me desafiaram, e morreram. Este é o único plano paralelo onde seres primordiais podem ser mortos. E você será o primeiro humano a morrer nele também. Ha-Ha!
+
+	-Jogador:É o que veremos!
+
+	@Cytran aparece o cenário assumindo forma de humano, porém muito maior que o normal e tomado por magia negra o circulando.
+
+	$Derrote Cytran$
+
+	@A batalha começa.
+
+	@Quando a vida de Cytran chega a zero. Ele se converte em uma grande explosão, e a tela fica branca.
+
+	$Objetivos somem$
+
+2. O jogador aparece deitado no chão do palácio Imperial. Ele levanta com dificuldade. Então, á sua frente, aparece o espírito de Tullius, que diz:
+
+	-Tullius: Muito bem <jogador>, estou orgulhoso de você, e vejo que fiz a escolha certa.
+
+	-Tullius: Nossa capital foi destruída, mas sei que irá trabalhar para reconstruí-la.
+
+	-Tullius: Meu tempo na Terra acabou, devo subir e ficar ao lado de Auriel.
+
+	-Tullius: Adeus, <jogador>.
+
+
+	@Então Tullius desaparece, e no palácio entra o Shaman seguido por dois legionários:
+
+	-Shaman: Você conseguiu, <jogador>, agora podemos viver em paz sem ameaças da escuridão. Meu povo será eternamente grato a ti, e lhe ajudaremos a reconstruir sua capital.
+
+	-Shaman: No caminho encontramos várias caravanas de seus legionários, teremos muita mão de obra.
+
+	-Jogador: Obrigado, amigo.
+
+	-Jogador: Vamos ao trabalho!
+
+
+	<Fim do jogo>
+
+	<Créditos>

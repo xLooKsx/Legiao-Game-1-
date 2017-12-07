@@ -1,0 +1,126 @@
+Ajuda
+
+Legenda
+1. Telas
+- Fala
+<> Ação a ser tomada
+::Tutorial
+@Ação que acontece
+$Objetivo$
+
+
+1.O jogador aparece do lado de fora da caverna, em uma floresta bem densa, cheia de cogumelos e borboletas. 
+
+$Explore a floresta$
+
+	@Jogador vai andando e encontra um grande muro de madeira, protegido por dois guardas (imunes a ataques). Um deles se aproxima e diz:
+
+	-Guarda: Alto lá, viajante! Nosso povoado não está recebendo estrangeiros!
+
+
+		<Se eu quiser entrar, não são vocês que irão me impedir.>
+
+			
+                        -Guarda: Ha-Ha! É melhor calar a boca, estrangeiro, você não tem poder aqui. Nossos deuses não permitirão que entre sem provar que é digno.
+			@Volta para a opção "Por qual motivo estrangeiros não podem entrar?".
+
+
+
+		<Por qual motivo estrangeiros não podem entrar?>
+
+			-Guarda: O último estrangeiro que entrou em nossa vila, há três dias, era um maldito ladrãozinho sujo. Nos fez acreditar que era um simples mercador, e na noite do dia seguinte, entrou na cabana do shaman e roubou o maior tesouro do nosso povoado, nosso sagrado cálice de ouro.
+			-Guarda: Corremos atrás dele, mas ele era rápido demais. Ainda temos patrulhas procurando por ele.
+
+				-Jogador: Olhe, um homem que tentou me matar estava carregando este cálice.
+
+				-Guarda: Ah, pelo poder dos antigos deuses! Você encontrou o cálice! Por favor, 	entre! O shaman gostará de falar com você.
+
+
+$Fale com o Shaman$
+
+
+		@ Após o jogador receber permissão para entrar, os guardas abrem o portão. O jogador entra no vilarejo, e ao longo do percurso para a cabana do shaman, vê pessoas ao fundo gritando:
+		1-"Viva!"
+		2-"Ele trouxe o cálice!"
+		3-"Nosso salvador!"
+		4-"O cálice está de volta!"
+
+
+2.O jogador entra na cabana do shaman. O shaman diz:
+
+
+
+	-Shaman: Mas o que é isso? Achei que tinha avisado meus guardas para não permitirem estrangeiros no vilarejo!
+
+		-Jogador: Eu trouxe o que me disseram que é muito valioso para a tribo.
+			@Cálice sai do inventário do jogador
+
+		-Shaman: Pelos deuses! O cálice está intacto! Eu e meu povo devemos nossa eterna gratidão!
+
+			<Qual a importância desse cálice?>
+				-Shaman: Esse cálice já estava aqui, no chão, quando fundamos nosso vilarejo, há 897 anos. E foi passado de lider para lider ao longo dos anos. É com ele que fazemos nossas cerimônias sagradas.
+				-Shaman: Há 300 anos, nossa vila foi saqueada, muitos de nós fomos mortos, e toda a vila foi queimada. O único objeto a soberviver ás chamas foi o cálice. Bebendo dele, tivemos forças para reconstruir a vila.
+			@Volta para as outras opções
+
+
+			<Você é um Shaman? Qual o seu dever?>
+				-Shaman: Como Shaman, meu dever é guiar meu povo, mostrando o caminho de nossos antigos deuses. Eu organizo e realizo as cerimônias sagradas. Também uso os poderes de nossos deuses para curar nossos enfermos.
+			@Volta para as outras opções
+
+
+			<O que a sua religião prega?>
+				-Shaman: O objetivo de nossos deuses é estabelecer a paz entre os homens e a natureza. O criador do universo e lider de todos os outros 6 deuses, é o Deus Sol, Auriel
+				-Shaman: Em respeito ao Deus Sol, devemos aproveitar cada segundo de sua luz, e não podemos sair do vilarejo durante a noite. As criaturas da escuridão são inimigas de nossos deuses.
+				-Shaman: Mas agora me diga uma coisa. Como encontrou nosso povoado?
+
+				-Jogador: Eu era um dos líderes na Legião do Império de Sartre. Há dois dias fomos atacados pelos sinameses, antigos inimigos do Império, que supostamente estavam vivendo um período de paz conosco.
+				-Jogador: Nossa legião teria humilhado os sinameses mais uma vez. Mas eles não estavam sozinhos. Nosso imperador foi assassinado por um mago sinamês com algum tipo de magia escura, de um tipo que eu nunca vi. Eu pude sentir uma força estranha naquele mago.
+
+				-Shaman: Ah, eu vejo! Seu imperador foi morto por um praticante de magia negra. Um tipo de magia muito forte, mas que só pode ser usado para o mal.
+				-Shaman: Para conseguir poder sobre essa força, o indivíduo deve passar por um ritual, bebendo de um líquido feito com ingredientes muito raros e fazendo uma promessa para Cytran, em que a discórdia deve ser semeada todos os dias pelo indivíduo.
+				-Shaman: Cytran é o Senhor das Trevas, grande rival do Deus Sol, e logo nosso inimigo. Diz a lenda que para destruir Cytran, um praticante de magia negra deve ser localizado e destruído, revelando a passagem para o plano de Cytran.
+				
+				-Jogador: Eu preciso reerguer o Império, preciso ter vingança. Já enviei soldados procurando pelos outros que foram escravizados. 
+
+				-Shaman: Ah, mas é ótimo ouvir isso! Para conseguir o que quer você terá que destruir Cytran. Com o desaparecimento do cálice, meu povo adoeceu, e precisaremos nos recompor. Por isso não poderia enviar meus próprios soldados.
+				-Shaman: Mas eu sinto uma força maior em você. Talvez você possa nos ajudar, destruindo Cytran, em troca seu império terá nosso eterno suporte, e eu lhe ajudarei em sua jornada para encontrar as relíquias do Sol.
+
+				<Relíquias do Sol?>
+					-Shaman: Há muito tempo, um mago passou por nosso vilarejo. Ele, vendo que nossos ancestrais estavam enfrentando diversas crises, como doenças brutais e falta de água e comida, fez de tudo para ajudá-los.
+					-Shaman: Ele deixou de lado seus interesses, esqueceu de sua viagem, e com muita paciência, após oito anos, melhorou a situação de nosso povo, sem pedir nada em troca.
+					-Shaman: Certo dia de muito sol, ele foi chamado pelo Deus Sol, e ele o fez O Caçador de Sombras. Ele usou grande parte de seus poderes para criar equipamentos que carregassem seus poderes e os deu para o mago.
+					-Shaman: Sendo um Caçador de Sombras, ele deveria passar sua vida ajudando os necessitados e procurando por praticantes de magia negra. Foi o que fez, mas nunca teve a oportunidade de impedir a magia negra, pois dificilmente as pessoas recorrem á magia negra para algo.
+					-Shaman: As histórias contam que ele morreu, de velhice, em uma caverna não muito longe daqui. Uma caverna cheia de perigos e criaturas hostis. Já mandamos exploradores para o lugar, mas todos voltaram de mãos vazias. Algo me diz que o Deus Sol não quer que qualquer um encontre as relíquias. 
+
+	@Volta para as outras opções
+
+
+				<Que tipo de ajuda você tem a oferecer?>
+
+					-Shaman: Ajuda espiritual. A maior ajuda que poderá ter nessa jornada.
+
+
+				<Temos um acordo. eu vou atrás das relíquias>
+
+					-Shaman: <Se homem> Ótimo! Agora, você deve estar faminto, sedento e cansado. Farei questão de que será tratado muito bem, para que amanhã possa partir em sua jornada.
+
+<Screen fade-out>
+
+
+<Transição para Capitulo 4: Jornada>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

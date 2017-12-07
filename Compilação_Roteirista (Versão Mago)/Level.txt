@@ -1,0 +1,42 @@
+Level cap recomendado: 6
+Obs: O level 6 só pode ser atingido ao matar o Líder Mago
+
+Cada skill point investido em uma skill garante os seguintes benefícios:
+
+Magia
+
+Ataque: Destruição - Skill point custo -5%
+Durabilidade: Restauração - Skill point custo -5%
+Reforço: Alteração - Skill point custo -5%
+Ocupação: Alquimia - Skill point efetividade de poção + 10%
+
+
+Combate
+
+Ataque: Lâmina - Skill point dano + 2
+Durabilidade: Armadura - Skill point armor rating + 5
+Reforço: Bloqueio - Skill point bloqueio + 5%
+Ocupação: Armeiro - Skill point efetividade + 1
+
+
+
+Valores podem variar a partir de testes do programador para comprovar o balanceio dos mesmos.
+
+
+Level 1
+100 XP
+
+Level 2
+200 XP
+
+Level 3
+300 XP
+
+Level 4
+400 XP
+
+Level 5
+500 XP
+
+Level 6
+600 XP

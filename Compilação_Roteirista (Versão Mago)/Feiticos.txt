@@ -1,0 +1,56 @@
+
+##Destruição
+
+
+	#Aprendiz
+		Chamas: dano 8 | custo 10
+		Congelamento: dano 8 + velocidade - | custo 15
+		Faíscas: dano 12 | custo 17
+		
+	#Intermediário
+		Bola de fogo: dano 16 | custo 20
+		Nevasca: dano 16 + velocidade - | custo 27
+		Relâmpagos: dano 20 | custo 30
+		
+	#Mestre
+		Tempestade de fogo: dano 30 | custo 30
+		Tempestade de gelo: dano 30 + velocidade - | custo 42
+		Tempestade de raios: dano 37 | custo 48
+		
+
+
+##Restauração
+
+	#Aprendiz
+		Cura: cura + 15 | custo 15
+		
+
+	#Intermediário
+		Fechar feridas: cura + 25 | custo 25
+
+	#Mestre
+		Cura suprema: cura + 40 | custo 40
+
+
+
+##Alteração
+
+	#Intermediário
+		Pele de rocha: resistência dano bruto e magia + 30% | custo 40
+
+	#Mestre
+		Pele de aço: resistência dano bruto e magia + 50% | custo 55
+
+##Especial
+
+		Raio solar: dano 40 contra escuridão | custo 30
+
+
+
+
+
+Valores podem variar a partir de testes do programador para comprovar o balanceio dos mesmos.
+
+
+
+		

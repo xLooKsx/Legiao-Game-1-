@@ -1,0 +1,16 @@
+
+Túnica
+
+-Túnica: MP+20
+
+-Túnica do sol: MP+50
+
+
+Anéis
+
+-Anel de destruição
+-Anel de restauração
+-Anel de alteração
+-Anel de alquimia
+
+Obs: Valores dos beneficios dos anéis variam

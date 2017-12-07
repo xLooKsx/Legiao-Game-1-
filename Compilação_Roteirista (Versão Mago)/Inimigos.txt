@@ -1,0 +1,232 @@
+1-Prólogo
+
+-Soldado de treinamento:
+Vida: Qualquer valor pois é imune a ataques
+Ataque: Espada de madeira - dano 3
+
+
+-Aprendiz de treinamento:
+Vida: Qualquer valor pois é imune a ataques
+Ataque: Chamas - dano 3
+
+
+________________________________________________________
+
+
+2-Escravizado
+
+--------------------------------------------------------
+Forte
+
+-Guarda carcereiro:
+Vida: 30
+Ataque: Espada de ferro - dano 8
+
+-Guarda comum:
+Vida: 40
+Ataque: Espada de ferro - dano 6
+
+
+-Mago comum:
+Vida: 30
+Ataque: Faíscas - dano 5
+
+--------------------------------------------------------
+
+Pântano
+
+-Slime:
+Vida:50
+Ataque: Cuspe de slime - dano 2
+
+
+-Lagarto gigante:
+Vida: 40
+Ataque: Mordida - dano 9
+
+
+-Lobo:
+Vida: 20
+Ataque: Mordida - dano 15
+
+
+Perigos adicionais: Água do pântano (verde) - mortal
+
+
+
+________________________________________________________
+
+
+3-Escuridão
+
+-Urso:
+Vida: 60
+Ataque: Patada - dano 15
+
+
+-Morcego:
+Vida: 10
+Ataque: Mordida - dano 10
+
+
+-Escorpião gigante:
+Vida: 60
+Ataque: Picada - dano 20
+
+-Ladrão:
+Vida: 70
+Ataque: Espada de aço - dano 15
+
+
+
+Perigos adicionais: Estalactites e estalagmites - causam pequeno dano.
+
+
+________________________________________________________
+
+4-Ajuda
+
+-Nenhum
+
+________________________________________________________
+
+5-Jornada
+
+--------------------------------------------------------
+
+Floresta
+
+
+-Troll da floresta:
+Vida: 100
+Ataque: Patada - dano 25
+
+
+-Lobo (versão 2, usa mesmo modelo):
+Vida: 60
+Ataque: Mordida -dano 30
+
+
+-Aprendizes sinameses:
+Vida: 50
+Ataque: Tempestade de gelo - dano 30 + velocidade - (ou) Tempestade de fogo - dano 30 (ou) Tempestade de raios - dano 35
+
+
+-Recrutas sinameses:
+Vida:60
+Ataque:Esáda de Prata -dano 25(ou) Espada de oreo - dano 35
+
+--------------------------------------------------------
+Caverna
+
+
+-Urso gigante:
+Vida: 170
+Ataque: Patada - dano 35
+
+________________________________________________________
+
+
+6-Caos
+
+--------------------------------------------------------
+
+Floresta
+
+-Pantera:
+Vida: 130
+Ataque: Mordida - dano 30
+
+
+-Urso (versão 2 - mesmo modelo):
+Vida: 150
+Ataque: Patada - dano 35
+
+--------------------------------------------------------
+
+Capital
+
+-Soldado sinamês
+Vida: 130
+Ataque: Espada de Oreo - dano 40
+
+
+-Mago sinamês
+Ataque: 110
+Ataque: Tempestade de gelo - dano 35 + velocidade - (ou) Tempestade de fogo - dano 35 (ou) Tempestade de raios - dano 40
+
+
+
+--------------------------------------------------------
+
+-Líder mago (fraqueza contra luz)
+Vida:300
+Ataque:Tempestade de raios - dano 50
+
+
+________________________________________________________
+
+7-Batalha Final
+
+-Fantasma (fraqueza contra luz)
+Vida: 50
+Ataque: Bola de escuridão - dano 25
+
+
+-Esqueleto (fraqueza contra luz)
+Vida: 80
+Ataque: Espada da escuridão - dano 30
+
+
+-Cytran (fraqueza contra luz)
+Vida: 450
+Ataque: (Basicamente ele vomita escuridão em você) - dano 60
+
+Obs: Quando vida chega em 300, ele some, e aparecem 2 fantasmas/ QUando vida chega em 150, ele some denovo e aparecem dois esqueletos.
+
+
+________________________________________________________
+
+
+
+
+Valores podem variar a partir de testes do programador para comprovar o balanceio dos mesmos.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

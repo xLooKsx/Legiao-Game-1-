@@ -1,0 +1,23 @@
+#Inimigos
+
+
+	Espada de Ferro
+		Dano 10
+
+	Espada de Aço
+		Dano 12
+
+
+	Espada de Prata
+		Dano 18
+
+
+	Espada de Oreo
+		Dano 30
+
+
+#Jogador
+	Pá
+		Dano 5
+
+Valores podem variar a partir de testes do programador para comprovar o balanceio dos mesmos.
